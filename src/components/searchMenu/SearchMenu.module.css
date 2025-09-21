@@ -1,46 +1,56 @@
 .searchMenuContainer {
 	border-bottom: 1px solid #0f0f1033;
 }
+
 .searchMenuPositionElem {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 77px;
+	gap: 150px;
 }
+
 .containerTitle {
-	margin-left: 20px;
+	margin-left: 0;
+	text-align: left;
 }
+
 .title {
 	margin-bottom: 0;
 }
+
 .subtitle {
 	margin-top: 0;
 	color: #0f0f1080;
 }
+
 .searchContainer {
-	flex: 1;
-	max-width: 403px;
+	display: flex;
+	justify-content: center;
 }
+
 .searchForm {
 	display: flex;
 	align-items: center;
-
+	max-width: 460px;
 	width: 100%;
 }
-.searchMenuInput {
-	flex: 1;
 
+.searchMenuInput {
+	width: 403px;
+	max-width: 100%;
 	font-size: 14px;
 	border-radius: 8px;
 	background: url('../../assets/search.svg') no-repeat 8px center;
-	padding: 8px;
-	padding-left: 30px;
-	border-color: #0f0f1033;
+	padding: 8px 8px 8px 30px;
+	border: 1px solid #0f0f1033;
+	box-sizing: border-box;
 }
+
 .searchMenuButton {
 	font-size: 16px;
 	background-color: #4263eb;
-	padding: 9px;
+	color: white;
+	padding: 9px 15px;
 	border: none;
 	border-radius: 4px;
 	margin-left: 10px;
