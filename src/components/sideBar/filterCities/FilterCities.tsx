@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './FilterCities.module.css'
 import { Select } from '@mantine/core'
 import { IconMapPin } from '@tabler/icons-react'
