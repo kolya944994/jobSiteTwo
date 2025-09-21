@@ -1,0 +1,100 @@
+.vacanciesList {
+	display: flex;
+	flex-direction: column;
+}
+.positionCities {
+	display: flex;
+	gap: 15px;
+	margin-left: 10px;
+}
+.allCity {
+	padding: 10px;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+.moscow {
+	border-bottom: 3px solid #4263eb;
+}
+.sanctPiterbyrg {
+	border-bottom: 3px solid #4263eb;
+}
+.containerVacancyCard {
+	margin-top: 18px;
+}
+.subtitleVacanciesList {
+	font-size: 20px;
+	color: #364fc7;
+	margin-bottom: 0;
+}
+.containerSalaryAndExperience {
+	display: flex;
+
+	align-items: center;
+	gap: 16px;
+}
+.salaryVacanciesList {
+	font-size: 16px;
+	margin-top: 5px;
+}
+.experienceVacanciesList {
+	margin-top: 5px;
+	font-size: 14px;
+	color: #0f0f1080;
+}
+.employerVacanciesList {
+	font-size: 14px;
+	color: #0f0f1080;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.scheduleNameVacanciesList {
+	font-size: 9px;
+	margin: 0;
+	max-width: 105px;
+	width: 100%;
+	border-radius: 2px;
+}
+.cityVacanciesList {
+	font-size: 16px;
+	margin-top: 0;
+}
+.containerVacanciesListButton {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+.buttonVacanciesList {
+	padding: 5px 15px;
+}
+.buttonSeeVacanciesList {
+	font-size: 14px;
+	background-color: #0f0f10;
+	border: none;
+	color: #ffffff;
+	border-radius: 4px;
+}
+.buttonRespondVacanciesList {
+	border-radius: 4px;
+	font-size: 14px;
+	border: none;
+	background-color: #0f0f101a;
+}
+.allSchedule {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 105px;
+}
+
+.remote {
+	background-color: #4263eb;
+	color: white;
+}
+.office {
+	background-color: #0f0f101a;
+	color: #0f0f1080;
+}
+.flexible {
+	background-color: #0f0f10;
+	color: white;
+}

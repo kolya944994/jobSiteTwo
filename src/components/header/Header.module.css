@@ -1,0 +1,46 @@
+.containerHeader {
+	background-color: #ffffff;
+}
+.containerNav {
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+.linkLogo {
+	display: flex;
+	gap: 10px;
+	margin: 15px;
+}
+.textLogo {
+	font-size: 16px;
+}
+.headerMenu {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	position: relative;
+	margin-right: 170px;
+}
+
+.jobText {
+}
+.jobText::after {
+	content: '';
+	display: inline-block; /* важно, иначе width/height не сработают */
+	width: 6px;
+	height: 6px;
+	background-color: #4263eb;
+	border-radius: 50%;
+	position: relative;
+	top: -3px;
+	right: -7px;
+}
+.aboutMe {
+	color: Gray;
+	display: flex;
+	align-items: center;
+}
+
+.aboutMe::before {
+	content: url(../../assets/userCircle.svg);
+}

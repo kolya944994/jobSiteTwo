@@ -1,0 +1,8 @@
+.containerFilterCities {
+	max-width: 320px;
+	height: auto;
+	background-color: white;
+	border-radius: 12px;
+	padding: 12px;
+	margin-top: 30px;
+}

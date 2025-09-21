@@ -1,0 +1,45 @@
+.containerFilterSkills {
+	max-width: 320px;
+	height: auto;
+	background-color: white;
+	border-radius: 12px;
+}
+.containerTitleFilterSkills {
+}
+.titleFilterSkills {
+	font-size: 14px;
+	padding: 20px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.containerSearchFilterSkills {
+	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+.formFilterSkills {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.inputFilterSkills {
+	width: 230px;
+	font-size: 12px;
+	border-radius: 8px;
+	padding: 10px;
+	border-color: #0f0f1033;
+	height: 30px;
+}
+.buttonFilterSkills {
+	width: 34px;
+	height: 30px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	background-image: url('../../../assets/Vector.svg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: #228be6;
+}
+.containerAddSkills {
+}
