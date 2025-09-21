@@ -1,10 +1,8 @@
 import { MantineProvider } from '@mantine/core'
-import { screen, fireEvent, render } from '@testing-library/react'
+import { screen, render } from '@testing-library/react'
 import { describe, expect, it, vi } from 'vitest'
-import { configureStore } from '@reduxjs/toolkit'
-import { Provider } from 'react-redux'
+
 import FilterCities from './FilterCities'
-import * as Redux from 'react-redux'
 
 const mockDispatch = vi.fn()
 vi.mock('react-redux', () => {

@@ -3,7 +3,7 @@ import { screen, render, fireEvent } from '@testing-library/react'
 import { describe, it, expect } from 'vitest'
 import { Provider } from 'react-redux'
 import { configureStore, combineReducers } from '@reduxjs/toolkit'
-import MainPageHhReducer, { addSkills } from '../../../reducers/MainPageHhSlice'
+import MainPageHhReducer from '../../../reducers/MainPageHhSlice'
 import FilterSkills from './FilterSkills'
 
 const rootReducer = combineReducers({ MainPageHhReducer })

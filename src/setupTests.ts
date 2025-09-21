@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom'
 
 import ResizeObserver from 'resize-observer-polyfill'
-;(global as any).ResizeObserver = ResizeObserver
+;(globalThis as any).ResizeObserver = ResizeObserver
 
 if (!window.matchMedia) {
 	window.matchMedia = (query: string) => ({

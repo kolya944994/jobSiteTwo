@@ -26,7 +26,7 @@ const renderWithStore = (preloadedState?: any) => {
 
 describe('MyPagination component', () => {
 	it('should practice page = {page+1} ', () => {
-		const { store } = renderWithStore({
+		renderWithStore({
 			MainPageHhReducer: {
 				skills: [],
 				error: null,

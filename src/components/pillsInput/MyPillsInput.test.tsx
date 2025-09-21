@@ -1,5 +1,5 @@
 import { MantineProvider } from '@mantine/core'
-import { screen, fireEvent, render } from '@testing-library/react'
+import { screen, render } from '@testing-library/react'
 import { describe, expect, it } from 'vitest'
 import MyPillsInput from './MyPillsInput'
 import { configureStore } from '@reduxjs/toolkit'
@@ -25,7 +25,7 @@ const renderWithStore = (preloadedState?: any) => {
 
 describe('MyPillsInput component', () => {
 	it('should display all skills from state', () => {
-		const { store } = renderWithStore({
+		renderWithStore({
 			MainPageHhReducer: {
 				skills: ['React', 'Redux'],
 				error: null,
