@@ -60,12 +60,13 @@
 }
 .containerVacanciesListButton {
 	display: flex;
-	gap: 12px;
 	align-items: center;
+	gap: 10px;
 }
 .buttonVacanciesList {
 	padding: 5px 15px;
 }
+
 .buttonSeeVacanciesList {
 	font-size: 14px;
 	background-color: #0f0f10;
@@ -78,6 +79,13 @@
 	font-size: 14px;
 	border: none;
 	background-color: #0f0f101a;
+}
+.buttonRespondVacanciesListColor {
+	border-radius: 4px;
+	font-size: 14px;
+	border: none;
+	background-color: #0f0f10;
+	color: white;
 }
 .allSchedule {
 	display: inline-flex;
