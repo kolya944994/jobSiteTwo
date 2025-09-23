@@ -5,11 +5,11 @@ import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom'
 
 function App() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename='/jobSiteTwo'>
 			<Routes>
-				<Route path='/' element={<Navigate to='/vacancy' replace />}></Route>
-				<Route path='/vacancy' element={<MainPage />}></Route>
-				<Route path='/vacancy/:id' element={<VacancyPage />}></Route>
+				<Route path='/' element={<Navigate to='/vacancy' />} />
+				<Route path='/vacancy' element={<MainPage />} />
+				<Route path='/vacancy/:id' element={<VacancyPage />} />
 			</Routes>
 		</BrowserRouter>
 	)
